@@ -1,7 +1,7 @@
 import axios from 'axios';
 
-export const API_URL = "https://backend-spring-boot-production.up.railway.app/";
-export const DEPLOYED_URL = "https://zosh-bazzar-backend.onrender.com"
+export const API_URL = "http://localhost:5454/";
+
 // change api
 
 export const api = axios.create({
